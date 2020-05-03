@@ -14,7 +14,7 @@ description              : &description "Website for Bharat Gwalani"
 url                      : https://bharatgwalani.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "bharatgwalani/bharatgwalani.github.io"
-teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "bharat.png"
+teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "bharat.jpg"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Bharat Gwalani"
-  avatar           : "bharat.png"
+  avatar           : "bharat.jpg"
   bio              : "I am an experienced material scientist with more than 50 publications in peer-reviewed journals. "
   location         : "Richland, Washington"
   employer         : "Staff Scientist, Pacific Northwest National Laboratory "
