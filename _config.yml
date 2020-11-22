@@ -84,11 +84,11 @@ author:
   avatar           : "bharat.jpg"
   bio              : "Staff Scientist, Materials Science "
   location         : "Richland, Washington"
-  employer         : "Pacific Northwest National Laboratory "
+  employer         : "Pacific Northwest National Laboratory"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=HPdZwpQAAAAJ&hl=en"
-  email            : dr.bharatgwalani@gmail.com
-  researchgate     :  # example: "https://www.researchgate.net/profile/Bharat_Gwalani"
+  email            : "bharatgwalani@my.unt.edu"
+  researchgate     : "https://www.researchgate.net/profile/Bharat_Gwalani"
   uri              :
   bitbucket        :
   codepen          :
@@ -100,7 +100,7 @@ author:
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  impactstory      : 
   lastfm           :
   linkedin         : "bharat-gwalani-ba9b0514"
   orcid            : "http://orcid.org/0000-0002-3021-6676"
@@ -109,7 +109,7 @@ author:
   stackoverflow    : 
   steam            :
   tumblr           :
-  twitter          : 
+  twitter          : "bgforce"
   vine             :
   weibo            :
   xing             :
