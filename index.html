@@ -165,19 +165,120 @@ nav.scrolled{background:rgba(26,26,46,.95);backdrop-filter:blur(20px)}
 .fi{opacity:0;transform:translateY(25px);transition:all .7s ease-out}.fi.visible{opacity:1;transform:translateY(0)}
 ::-webkit-scrollbar{width:6px}::-webkit-scrollbar-track{background:var(--ivory)}::-webkit-scrollbar-thumb{background:var(--silver);border-radius:3px}
 
-@media(max-width:900px){
-.hc{grid-template-columns:1fr;padding:6rem 2rem 3rem;text-align:center}.hn{font-size:2.6rem}.hti{margin:0 auto 2rem}.hl{justify-content:center}.hv{display:none}.metrics{justify-content:center}
-.sec{padding:3.5rem 2rem}.about-grid,.research-grid,.lab-grid,.teach-grid,.award-grid{grid-template-columns:1fr}
-.group-sec,.pub-sec,.footer{padding:3.5rem 2rem}
-.pub-item{grid-template-columns:1fr;gap:.4rem}.pub-yr{writing-mode:horizontal-tb;transform:none}
-.nk{display:none}.mt{display:flex}.footer-bottom{flex-direction:column;gap:.8rem;text-align:center}
-.stitle{font-size:1.8rem}
+/* TABLET */
+@media(max-width:1024px){
+.hc{grid-template-columns:1fr 1fr;gap:2rem;padding:6rem 3rem 3rem}
+.research-grid,.lab-grid{grid-template-columns:repeat(2,1fr)}
+.about-grid{grid-template-columns:1fr;gap:2rem}
+.about-cards{grid-template-columns:repeat(3,1fr)}
+.teach-grid{grid-template-columns:repeat(2,1fr)}
+}
+
+/* MOBILE */
+@media(max-width:768px){
+nav{padding:.8rem 1.2rem}
+.nl{font-size:.9rem}
+.nk{position:fixed;top:0;right:-100%;width:70%;max-width:280px;height:100vh;background:rgba(26,26,46,.98);backdrop-filter:blur(20px);flex-direction:column;justify-content:center;align-items:center;gap:2rem;transition:right .3s ease;z-index:999}
+.nk.open{right:0}
+.nk a{font-size:1.1rem;opacity:.9}
+.mt{display:flex;z-index:1001}
+
+.hc{grid-template-columns:1fr;padding:5rem 1.5rem 2.5rem;text-align:center;gap:2rem}
+.hn{font-size:2.4rem}
+.hsub{font-size:.8rem}
+.hg{font-size:.7rem}
+.hti{font-size:1rem;margin:0 auto 1.5rem;max-width:100%}
+.hl{justify-content:center;gap:.6rem}
+.btn{padding:.65rem 1.2rem;font-size:.8rem}
+.hv{order:-1}
+.profile-photo{width:180px;height:180px}
+.photo-wrapper::before{width:210px;height:210px}
+.photo-wrapper::after{width:240px;height:240px}
+.metrics{flex-wrap:wrap;gap:1.2rem;justify-content:center;margin-top:1.5rem;padding-top:1.2rem}
+.metric-val{font-size:1.5rem}
+.metric-lab{font-size:.6rem}
+
+.sec{padding:3rem 1.5rem}
+.sh{flex-wrap:wrap;gap:.6rem;margin-bottom:1.8rem}
+.stitle{font-size:1.6rem}
+.sn{font-size:.65rem}
+.sn::before{width:16px;margin-right:.5rem}
+
+.about-grid{grid-template-columns:1fr;gap:1.5rem}
+.about-text{font-size:.92rem;line-height:1.7}
+.about-cards{grid-template-columns:1fr 1fr;gap:.8rem}
+.acard{padding:1.1rem}
+.acard-value{font-size:1rem}
+.skills-tags{gap:.3rem}
+.stag{font-size:.65rem;padding:.25rem .5rem}
+
+.group-sec{padding:3rem 1.5rem}
+.group-desc{font-size:.92rem}
+.lab-grid{grid-template-columns:1fr;gap:.8rem}
+.lab-card{padding:1.3rem}
+.lab-card h3{font-size:1.05rem}
+.lab-card p{font-size:.8rem}
+/* Team roster mobile */
+.group-sec [style*="grid-template-columns:repeat(3"]{grid-template-columns:1fr!important;gap:1.2rem!important}
+.team-stat{flex-wrap:wrap;gap:1rem;justify-content:center}
+.team-stat-item{text-align:center;min-width:80px}
+
+.research-grid{grid-template-columns:1fr;gap:.8rem}
+.rcard{padding:1.3rem}
+.rcard h3{font-size:1.05rem}
+.rcard p{font-size:.82rem}
+
+.pub-sec{padding:3rem 1.5rem}
+.pub-stats{flex-wrap:wrap;gap:.8rem;font-size:.8rem}
+.pub-item{grid-template-columns:1fr;gap:.3rem;padding:1.2rem 1.3rem}
+.pub-yr{writing-mode:horizontal-tb;transform:none;font-size:.7rem}
+.pub-c h3{font-size:.95rem}
+.pub-a{font-size:.78rem}
+.pub-v{font-size:.68rem}
+
+.tl{padding-left:2rem}
+.ti{padding-left:1.5rem;margin-bottom:2rem}
+.ti::before{left:-2.4rem;width:8px;height:8px}
+.ti-role{font-size:1.15rem}
+.ti-org{font-size:.88rem}
+.ti-desc{font-size:.85rem}
+
+.teach-grid{grid-template-columns:1fr;gap:.8rem}
+.teach-card{padding:1.2rem}
+
+.award-grid{grid-template-columns:1fr;gap:.6rem}
+.award-item{padding:.8rem 1rem}
+.award-text{font-size:.82rem}
+
+.footer{padding:3rem 1.5rem 2rem}
+.footer-cta{font-size:1.8rem}
+.footer-sub{font-size:.9rem}
+.footer-links{flex-direction:column;align-items:center;gap:.6rem}
+.footer-link{width:100%;max-width:280px;justify-content:center;font-size:.85rem}
+.footer-bottom{flex-direction:column;gap:.6rem;text-align:center}
+}
+
+/* SMALL PHONE */
+@media(max-width:400px){
+.hc{padding:4.5rem 1rem 2rem}
+.hn{font-size:2rem}
+.hti{font-size:.92rem}
+.profile-photo{width:150px;height:150px}
+.photo-wrapper::before{width:175px;height:175px}
+.photo-wrapper::after{width:200px;height:200px}
+.metrics{gap:.8rem}
+.metric-val{font-size:1.3rem}
+.about-cards{grid-template-columns:1fr}
+.sec{padding:2.5rem 1rem}
+.group-sec,.pub-sec,.footer{padding:2.5rem 1rem 2rem}
+.stitle{font-size:1.4rem}
+.btn{padding:.6rem 1rem;font-size:.78rem}
 }
 </style>
 </head>
 <body>
 
-<nav id="nb"><div class="nl">B<span class="acc">.</span>Gwalani</div><ul class="nk"><li><a href="#about">About</a></li><li><a href="#group">Lab</a></li><li><a href="#research">Research</a></li><li><a href="#publications">Publications</a></li><li><a href="#experience">CV</a></li><li><a href="#contact">Contact</a></li></ul><button class="mt" onclick="document.querySelector('.nk').style.display=document.querySelector('.nk').style.display==='flex'?'none':'flex'"><span></span><span></span><span></span></button></nav>
+<nav id="nb"><div class="nl">B<span class="acc">.</span>Gwalani</div><ul class="nk"><li><a href="#about">About</a></li><li><a href="#group">Lab</a></li><li><a href="#research">Research</a></li><li><a href="#publications">Publications</a></li><li><a href="#experience">CV</a></li><li><a href="#contact">Contact</a></li></ul><button class="mt" onclick="document.querySelector('.nk').classList.toggle('open')"><span></span><span></span><span></span></button></nav>
 
 <!-- HERO -->
 <section class="hero"><div class="hc"><div class="ht">
@@ -330,7 +431,7 @@ nav.scrolled{background:rgba(26,26,46,.95);backdrop-filter:blur(20px)}
 const n=document.getElementById('nb');window.addEventListener('scroll',()=>n.classList.toggle('scrolled',window.scrollY>50));
 const o=new IntersectionObserver(e=>{e.forEach((x,i)=>{if(x.isIntersecting){setTimeout(()=>x.target.classList.add('visible'),i*60);o.unobserve(x.target)}})},{threshold:.1,rootMargin:'0px 0px -40px 0px'});
 document.querySelectorAll('.fi').forEach(e=>o.observe(e));
-document.querySelectorAll('a[href^="#"]').forEach(a=>{a.addEventListener('click',function(e){e.preventDefault();const t=document.querySelector(this.getAttribute('href'));if(t)t.scrollIntoView({behavior:'smooth',block:'start'})})});
+document.querySelectorAll('a[href^="#"]').forEach(a=>{a.addEventListener('click',function(e){e.preventDefault();document.querySelector('.nk').classList.remove('open');const t=document.querySelector(this.getAttribute('href'));if(t)t.scrollIntoView({behavior:'smooth',block:'start'})})});
 
 function hlAuthor(a){return a.replace(/(Bharat Gwalani|Gwalani, Bharat|B\. Gwalani|Gwalani, B\.)/gi,'<strong>$1</strong>')}
 
