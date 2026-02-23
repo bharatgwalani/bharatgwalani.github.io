@@ -1,0 +1,21 @@
+{
+  "last_updated": "2026-02-22 00:00 UTC",
+  "author": "Bharat Gwalani",
+  "total_citations": 8400,
+  "h_index": 51,
+  "i10_index": 110,
+  "publications": [
+    {"title":"In-situ thermo-mechano-chemical transformation and consolidation of Sm-Co powders via a single-step route for bulk magnet fabrication","authors":"Aniruddha Malakar, Andrew Martin, Farhan Ishrak, Caleb Schenck, Anqi Yu, Mayur Pole, Jens Darsell, Tianhao Wang, Joseph Helsing, John Thornton, Bharat Gwalani","year":"2025","venue":"Nature Communications","citations":0,"url":"","scholar_url":""},
+    {"title":"Overcoming the conversion reaction limitation at three-phase interfaces using mixed conductors towards energy-dense solid-state Li-S batteries","authors":"Daiwei Wang, Bharat Gwalani, et al.","year":"2025","venue":"Nature Materials","citations":0,"url":"","scholar_url":""},
+    {"title":"Mechanistic understanding of speciated oxide growth in high entropy alloys","authors":"Bharat Gwalani, Andrew Martin, Elizabeth Kautz, Boyu Guo, et al.","year":"2024","venue":"Nature Communications","citations":0,"url":"","scholar_url":""},
+    {"title":"Mechanisms for high creep resistance in alumina-forming austenitic (AFA) alloys","authors":"Bharat Gwalani, Julian Escobar, Miao Song, et al.","year":"2024","venue":"Acta Materialia","citations":0,"url":"","scholar_url":""},
+    {"title":"Unprecedented electrical performance of friction-extruded copper-graphene composites","authors":"Bharat Gwalani, Xiao Li, Aditya Nittala, Woongjo Choi, et al.","year":"2024","venue":"Materials & Design","citations":0,"url":"","scholar_url":""},
+    {"title":"Exceptional enhancement of mechanical properties in high-entropy alloys via thermodynamically guided local chemical ordering","authors":"Sriswaroop Dasari, Abhishek Sharma, Chao Jiang, Bharat Gwalani, et al.","year":"2023","venue":"Proceedings of the National Academy of Sciences","citations":0,"url":"","scholar_url":""},
+    {"title":"High density of strong yet deformable intermetallic nanorods leads to an excellent room temperature strength-ductility combination in a high entropy alloy","authors":"Bharat Gwalani, Sriswaroop Dasari, Abhishek Sharma, et al.","year":"2021","venue":"Acta Materialia","citations":0,"url":"","scholar_url":""},
+    {"title":"Extreme shear-deformation-induced modification of defect structures and hierarchical microstructure in an Al-Si alloy","authors":"Bharat Gwalani, Matthew Olszta, et al.","year":"2020","venue":"Communications Materials","citations":0,"url":"","scholar_url":""},
+    {"title":"Modifying transformation pathways in high entropy alloys or complex concentrated alloys via thermo-mechanical processing","authors":"Bharat Gwalani, Stephane Gorsse, Deep Choudhuri, et al.","year":"2018","venue":"Acta Materialia","citations":0,"url":"","scholar_url":""},
+    {"title":"Cu assisted stabilization and nucleation of L12 precipitates in Al0.3CuFeCrNi2 fcc-based high entropy alloy","authors":"Bharat Gwalani, D Choudhuri, V Soni, Y Ren, et al.","year":"2017","venue":"Acta Materialia","citations":0,"url":"","scholar_url":""},
+    {"title":"Tensile yield strength of a single bulk Al0.3CoCrFeNi high entropy alloy can be tuned from 160 MPa to 1800 MPa","authors":"Bharat Gwalani, Stephane Gorsse, Deep Choudhuri, et al.","year":"2019","venue":"Scripta Materialia","citations":0,"url":"","scholar_url":""},
+    {"title":"Optimizing the coupled effects of Hall-Petch and precipitation strengthening in a Al0.3CoCrFeNi high entropy alloy","authors":"Bharat Gwalani, Vishal Soni, Michael Lee, et al.","year":"2017","venue":"Materials & Design","citations":0,"url":"","scholar_url":""}
+  ]
+}
